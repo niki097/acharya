@@ -29,8 +29,35 @@
 	color: #ffffff;
 	background-color: #DE1F27;
 	top: -15px;
+    padding: .2rem;
 	transform: translate(-50%,6%);
 }
 .input_number{
     display:flex;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 14px;
+    box-shadow: 1px 2px 6px 0px #00000040;
+}
+.input_number input::placeholder{
+    color: #808080;
+}
+.send_otp_btn{
+    background-color: #FFB900;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: .8rem;
+}
+.continue_with_email{
+    display: flex;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: .8rem;  
+}
+.continue_with_email button span{
+    padding-right: 2rem;
 }
