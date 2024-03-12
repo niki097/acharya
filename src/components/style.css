@@ -1,8 +1,26 @@
 /* styles.css (or your preferred CSS file) */
+.login-div{
+    background-color: #ffffff;
+    box-shadow: 0 0.5rem 1rem #00000026;
+    border-radius: 0px 30px 0 20px;
+}
+.login-left{
+    background: url("../assets/imgs/smallRectangle1.svg");
+    background-position: calc(100% - 0px) 0px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.login-left img {
+	position: absolute;
+	transform: translate(0%, 32%);
+	height: 339px;
+}
 .register {
     background: #DE1F27E5;
-    border-radius: 30px 30px 0 0;
-    padding: 2rem;
+    border-radius: 0px 30px 0 30px;
+    position: relative;
 }
 .register h1{
     font-size: 26px;
@@ -27,10 +45,10 @@
 .register p span {
 	position: absolute;
 	color: #ffffff;
-	background-color: #DE1F27;
+	background-color: #E2343B;
 	top: -15px;
     padding: .2rem;
-	transform: translate(-50%,6%);
+	transform: translate(-50%,-3%);
 }
 .input_number{
     display:flex;
@@ -42,6 +60,7 @@
 .input_number input::placeholder{
     color: #808080;
 }
+
 .send_otp_btn{
     background-color: #FFB900;
     display: flex;
@@ -57,6 +76,16 @@
     color: #ffffff;
     border-radius: 10px;
     padding: .8rem;  
+}
+.privacy {
+    text-align: center;
+    border: none !important;
+    color: #D6D6D6;
+    margin: 2rem 0;
+    background-color: transparent;
+}
+.privacy > a{
+    color:#FFB900;
 }
 .continue_with_email button span{
     padding-right: 2rem;
