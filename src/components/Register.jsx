@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import './style.css';
 import email from '../assets/imgs/dashicons_email-alt2.svg';
 import loginImg from '../assets/imgs/email.svg';
+import Layout from './Layout/Layout';
 
-function Register() {
+function Register({ showModal, setShowModal }) {
     const [formData, setFormData] = useState({
         name: "",
         phoneNumber: "",
@@ -12,6 +13,7 @@ function Register() {
         confirmPassword: ""
     });
 
+    // handle input change
     const handleInputChange = (e) => {
         const { name, value } = e.target;
         setFormData(prevFormData => ({
@@ -20,6 +22,7 @@ function Register() {
         }));
     }
 
+    // handle form submission
     const handleUserDetails = (e) => {
         e.preventDefault();
 
@@ -35,7 +38,7 @@ function Register() {
         }
 
         alert("registered Successful!");
-
+        console.log(formData)
         // Clear form data after successful submission
         setFormData({
             name: "",
@@ -44,14 +47,17 @@ function Register() {
             password: "",
             confirmPassword: ""
         });
+
+        // Close the modal after successful registration
+        setShowModal(false);
     }
 
     return (
-        <>
+        <Layout>
             <form action="">
-                <div class="container login-div mx-auto">
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 sm:grid-cols-1 gap-0">
-                        <div class="w-full h-full login-left relative">
+                <div className="container login-div mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 sm:grid-cols-1 gap-0">
+                        <div className="w-full h-full login-left relative">
                             <img src={loginImg} alt="" className='max-w-full h-auto' />
                         </div>
                         <div className="p-8 w-full register">
@@ -119,11 +125,8 @@ function Register() {
                         </div>
                     </div>
                 </div>
-
             </form>
-
-
-        </>
+        </Layout>
     );
 }
 
