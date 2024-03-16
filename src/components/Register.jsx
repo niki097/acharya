@@ -53,14 +53,14 @@ function Register({ showModal, setShowModal }) {
     }
 
     return (
-        <Layout>
-            <form action="">
-                <div className="container login-div mx-auto">
+        <>
+            <form action="" className='register_form'>
+                <div className=" login-div mx-auto my-4">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 sm:grid-cols-1 gap-0">
                         <div className="w-full h-full login-left relative">
                             <img src={loginImg} alt="" className='max-w-full h-auto' />
                         </div>
-                        <div className="p-8 w-full register">
+                        <div className="p-8 register">
                             <h1>Hi Welcome!</h1>
                             <h5>Submit your Basic Details</h5>
                             <p className='text-center'><span>Log in or Sign up</span></p>
@@ -117,7 +117,7 @@ function Register({ showModal, setShowModal }) {
                                 </div>
                             </div>
                             <div className='send_otp_btn'>
-                                <button onClick={handleUserDetails}>Signup Here</button>
+                                <button onClick={handleUserDetails}>Sign Up</button>
                             </div>
                             <p><span>or</span></p>
                             <div className='continue_with_email'><button className='flex'><span><img src={email} alt="" /></span>Already you have an account? Login </button></div>
@@ -126,7 +126,7 @@ function Register({ showModal, setShowModal }) {
                     </div>
                 </div>
             </form>
-        </Layout>
+        </>
     );
 }
 
