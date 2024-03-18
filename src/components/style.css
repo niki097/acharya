@@ -177,3 +177,22 @@
     font-weight: 500;
     font-size: 22px;
 }
+.astrologer_details{
+        display: grid;
+        align-content: space-between;
+        overflow:clip;
+}
+.astrologer_details_Card{
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 10px;
+ border-bottom: 1px solid dotted gray;
+}
+.astrologer_img .vedic img{
+    filter: drop-shadow(1px 1px 5px 0px #00000026);
+
+}
+.astrologer_details .name{
+    display: flex;
+    justify-content: space-between;
+}
