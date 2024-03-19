@@ -3,9 +3,9 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; // Import icons from react-icons library
-import astrologer from '../assets/imgs/astrologer.svg';
-import star from '../assets/imgs/star.svg';
-import './style.css';
+import astrologer from '../../assets/imgs/astrologer.svg';
+import star from '../../assets/imgs/star.svg';
+import './carousel.css';
 
 function Carousel() {
 
@@ -36,7 +36,8 @@ function Carousel() {
         slidesToScroll: 1,
         prevArrow: <PrevArrow />, // Custom previous arrow component
         nextArrow: <NextArrow />,// Custom next arrow component
-        responsive: [ // Responsive settings
+        // Responsive settings
+        responsive: [ 
         {
             breakpoint: 1024,
             settings: {

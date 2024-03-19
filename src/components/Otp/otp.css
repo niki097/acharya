@@ -1,0 +1,27 @@
+.otp-div {
+	box-shadow: 0 4px 64px #00000026;
+	display: flex;
+	width: 840px !important;
+	padding: 10px 10px 10px 10px;
+	background: #fff;
+	height: calc(82vh - 50px);
+	overflow: hidden;
+	border-radius: 12px 60px 0;
+	margin: 100px auto;
+}
+.login-left {
+	background: url("/src/assets/imgs/smallRectangle1.svg");
+	background-position: calc(100% - 0px) 0px;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	background-size: 254px;
+	margin: -1rem -0.7rem;
+}
+.login-left img {
+	position: absolute;
+	transform: translate(0%, 60%);
+	height: 320px;
+	overflow: hidden;
+}

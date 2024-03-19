@@ -1,6 +1,6 @@
 import React from 'react'
 import leo from '../assets/imgs/leo.svg'
-import './style.css'
+import './AstroCard.css'
 
 function HoroscopeCard() {
   return (

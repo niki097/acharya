@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './tabs.css'
 
 function AstrologerTabs() {
   const [activeTab, setActiveTab] = useState(1);
@@ -9,42 +10,42 @@ function AstrologerTabs() {
 
   return (
     <>
-    <div className="flex">
+    <div className="flex astrolistpage_tabs">
       <button
         className={`px-4 py-2 mr-2 rounded-t-lg focus:outline-none ${
-          activeTab === 1 ? 'bg-blue-500 text-white' : 'bg-gray-300 text-gray-700'
+          activeTab === 1 ? 'bg-white-500 text-black' : 'bg-teal-300 text-white-700'
         }`}
         onClick={() => handleTabClick(1)}
       >
-        Tab 1
+       Career
       </button>
       <button
         className={`px-4 py-2 mr-2 rounded-t-lg focus:outline-none ${
-          activeTab === 2 ? 'bg-blue-500 text-white' : 'bg-gray-300 text-gray-700'
+          activeTab === 2 ? 'bg-white-500 text-black' : 'bg-teal-300 text-white-700'
         }`}
         onClick={() => handleTabClick(2)}
       >
-        Tab 2
+       Online
       </button>
       <button
         className={`px-4 py-2 mr-2 rounded-t-lg focus:outline-none ${
-          activeTab === 3 ? 'bg-blue-500 text-white' : 'bg-gray-300 text-gray-700'
+          activeTab === 3 ? 'bg-white-500 text-black' : 'bg-teal-300 text-white-700'
         }`}
         onClick={() => handleTabClick(3)}
       >
-        Tab 3
+       English
       </button>
       <button
         className={`px-4 py-2 mr-2 rounded-t-lg focus:outline-none ${
-          activeTab === 4 ? 'bg-blue-500 text-white' : 'bg-gray-300 text-gray-700'
+          activeTab === 4 ? 'bg-white-500 text-black' : 'bg-teal-300 text-white-700'
         }`}
         onClick={() => handleTabClick(4)}
       >
-        Tab 4
+        Highest
       </button>
       <button
         className={`px-4 py-2 rounded-t-lg focus:outline-none ${
-          activeTab === 5 ? 'bg-blue-500 text-white' : 'bg-gray-300 text-gray-700'
+          activeTab === 5 ? 'bg-white-500 text-black' : 'bg-teal-300 text-white-700'
         }`}
         onClick={() => handleTabClick(5)}
       >

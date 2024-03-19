@@ -1,22 +1,21 @@
 import React, { useState } from 'react';
-import './style.css';
-import usa from '../assets/imgs/USA.svg';
-import mobile from '../assets/imgs/Vector.svg';
-import otpImg from '../assets/imgs/otp.svg';
+import './otp.css';
+import mobile from '../../assets/imgs/Vector.svg';
+import otpImg from '../../assets/imgs/otp.svg';
 
 
 function Otp() {
-    const [sentOtp, setSentOtp] = useState(null);
+    // const [sentOtp, setSentOtp] = useState(null);
 
-    const handleCountryChange = (e) => {
-        setSentOtp(e.target.value);
-    };
+    // const handleCountryChange = (e) => {
+    //     setSentOtp(e.target.value);
+    // };
 
     return (
         <>
-            <div class="container login-div mx-auto">
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 sm:grid-cols-1 gap-0">
-                    <div class="w-full h-full login-left relative">
+            <div className="container otp-div mx-auto my-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 sm:grid-cols-1 gap-0">
+                    <div className="w-full h-full login-left relative">
                         <img src={otpImg} alt="" className='max-w-full h-auto' />
                     </div>
                     <div className="p-8 w-full register">

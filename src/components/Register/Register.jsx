@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import './style.css';
-import email from '../assets/imgs/dashicons_email-alt2.svg';
-import loginImg from '../assets/imgs/email.svg';
-import Layout from './Layout/Layout';
+import './register.css';
+import email from '../../assets/imgs/dashicons_email-alt2.svg';
+import loginImg from '../../assets/imgs/email.svg';
 
-function Register({ showModal, setShowModal }) {
+
+function Register() {
     const [formData, setFormData] = useState({
         name: "",
         phoneNumber: "",

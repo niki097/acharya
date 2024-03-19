@@ -1,7 +1,7 @@
 import React from 'react'
-import verificationImg from '../assets/imgs/successImg.svg'
-import vectorRight from '../assets/imgs/Vector (1).svg'
-import './style.css'
+import verificationImg from '../../assets/imgs/successImg.svg'
+import vectorRight from '../../assets/imgs/Vector (1).svg'
+import './verification.css'
 
 function Verification() {
     return (

@@ -1,13 +1,13 @@
 import './App.css'
-import Register from './components/Register'
+import Register from './components/Register/Register'
 import './assets/media.css'
-import Login from './components/Login'
+import Login from './components/Login/Login'
 import { Route, Router, Routes } from 'react-router-dom'
 import Landing from './pages/Landing'
 import ChatPage from './pages/ChatPage'
 import TalkPage from './pages/TalkPage'
 import 'flowbite/dist/flowbite.css';
-import AstrologerList from './components/AstrologerList'
+import Blog from './pages/Blog/Blog'
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
       <Route path='/chatwithastrologer' element={ <ChatPage/>} />
       <Route path='/talkwithastrologer' element={ <TalkPage/>} />
     </Routes>
-<AstrologerList/>
+    <Blog/>
     </>
   )
 }

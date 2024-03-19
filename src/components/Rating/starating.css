@@ -1,0 +1,20 @@
+.verification{
+    box-shadow: 0 4px 64px #00000026;
+}
+.verification>img{
+        height: 500px;
+        padding: 3rem;
+}
+
+/* -----------StarRating.jsx start---------- */
+.astro_rating {
+	display: flex;
+	padding: 8px 14px;
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 1px 1px 8px 0px #00000026;
+	border-radius: 20px;
+	bottom: -5%;
+	left: 6%;
+}
+/* -----------StarRating.jsx end---------- */

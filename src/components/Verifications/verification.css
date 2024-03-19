@@ -1,0 +1,7 @@
+.verification{
+    box-shadow: 0 4px 64px #00000026;
+}
+.verification>img{
+        height: 500px;
+        padding: 3rem;
+}

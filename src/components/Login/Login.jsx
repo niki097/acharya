@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import './style.css';
-import usa from '../assets/imgs/USA.svg';
-import email from '../assets/imgs/dashicons_email-alt2.svg';
-import loginImg from '../assets/imgs/email.svg';
-import Layout from './Layout/Layout';
+import './login.css';
+import usa from '../../assets/imgs/USA.svg';
+import email from '../../assets/imgs/dashicons_email-alt2.svg';
+import loginImg from '../../assets/imgs/email.svg';
+
+
 
 function Login() {
     const [selectedCountry, setSelectedCountry] = useState(null);

@@ -1,14 +1,14 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Layout from '../components/Layout/Layout'
-import Carousel from '../components/Carousel'
+import Carousel from '../components/Carousel/Carousel'
+
 
 function Landing() {
   return (
     <Layout>
         <div class="mx-auto w-full text-center my-5">
 
-        <Carousel/>
+      <Carousel/>
 
         </div>
     </Layout>
