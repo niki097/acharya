@@ -6,7 +6,7 @@ import { Route, Router, Routes } from 'react-router-dom'
 import Landing from './pages/Landing'
 import ChatPage from './pages/ChatPage'
 import TalkPage from './pages/TalkPage'
-import 'flowbite/dist/flowbite.css';
+
 import Blog from './pages/Blog/Blog'
 
 function App() {
@@ -20,7 +20,6 @@ function App() {
       <Route path='/chatwithastrologer' element={ <ChatPage/>} />
       <Route path='/talkwithastrologer' element={ <TalkPage/>} />
     </Routes>
-    <Blog/>
     </>
   )
 }
