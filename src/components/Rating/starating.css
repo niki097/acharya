@@ -1,20 +1,32 @@
-.verification{
-    box-shadow: 0 4px 64px #00000026;
-}
-.verification>img{
-        height: 500px;
-        padding: 3rem;
-}
-
 /* -----------StarRating.jsx start---------- */
-.astro_rating {
+.s_rating-1 {
 	display: flex;
-	padding: 8px 14px;
+	padding: 8px 12px;
 	position: absolute;
 	background-color: #fff;
 	box-shadow: 1px 1px 8px 0px #00000026;
 	border-radius: 20px;
-	bottom: -5%;
-	left: 6%;
+	bottom: -2.4%;
+	left: 30%;
+	justify-content: space-between;
+	height: 44px;
+	width: 90px;
+	font-weight: 600;
+	font-size: 19px;
+}
+.s_rating-2 {
+	display: flex;
+	padding: 1rem 1.5rem;
+	background-color: #fff;
+	box-shadow: 1px 1px 8px 0px #00000026;
+	border-radius: 28px;
+	height: 53px;
+	font-weight: 600;
+	font-size: 16px;
+	gap: .6rem;
+	align-items: center;
+}
+.s_rating-2 img{
+	height: 22px;
 }
 /* -----------StarRating.jsx end---------- */

@@ -1,0 +1,11 @@
+.notif_bg {
+	display: flex;
+    background-color: #E1353C;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: end;
+	gap: 1rem;
+	height: 88px;
+	padding: 1rem;
+    color: #fff;
+}

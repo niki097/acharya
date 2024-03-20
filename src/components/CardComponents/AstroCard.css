@@ -40,6 +40,7 @@
     font-size: 24px;
     font-weight: 600;
 }
+/* -----------------astrologercard----------------- */
 .astrologer_card button {
 	border-radius: 25px;
 	padding: em;
@@ -59,34 +60,51 @@
     font-weight: 500;
     font-size: 22px;
 }
+/* --------------astrologer details-------------- */
+.astrologer_details_Card{
+	display:grid;
+
+}
+.astrologer_details_Card .astrologer_details_Card_inner{
+	display: flex;
+	gap: 10px;
+}
 .astrologer_details{
         display: grid;
-        align-content: space-between;
-        overflow:clip;
+        align-content: start;
 }
 .astro_connect_options {
 	display: flex;
-	box-shadow: 1px 1px 8px 0px #00000026;
-	width: 100px;
-	border-radius: 30px;
-	padding: .8rem;
-	justify-content: space-around;
-    border-bottom: 1px solid dotted;
+	gap: 5.4rem;
+	padding: 1rem;
 }
 .astrologer_img .vedic img{
     filter: drop-shadow(1px 1px 5px 0px #00000026);
 
 }
-.astrologer_details .name{
-    display: flex;
-    justify-content: space-between;
+.astrologer_details .name {
+	display: flex;
+	justify-content: space-between;
+	padding: 1.4rem 0;
+	gap: 3rem;
 }
-
+.readingicon{
+	display : flex;
+	margin: .2rem 0;
+	gap: 1rem;
+}
+.readingicon p{
+    font-size: 15px;
+}
+.readingicon img{
+	height: 25px;
+	width: 25px;
+}
 .astro_contact_card{
     position:relative;
 }
 .astro_contact_card .vedic img{
-    height: 200px;
+    height: 280px !important;
 }
 .astro_rating {
 	display: flex;
@@ -106,16 +124,18 @@
     font-weight: 600;
     font-size: 20px;
 }
-
-.readingicon p{
-    font-size: 19px;
-    color: #616161;
-    padding-left: 10px;
-}
 .astrologer_details h5{
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
 }
 .astrologer_details img{
-    height: 33px;
+    height: 35px;
+}
+.online-text{
+	color: green;
+	font-weight: 600;
+}
+.offline-text{
+	color: #E2343B;
+	font-weight: 600;
 }

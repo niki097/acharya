@@ -5,11 +5,11 @@ import otpImg from '../../assets/imgs/otp.svg';
 
 
 function Otp() {
-    // const [sentOtp, setSentOtp] = useState(null);
+    const [sentOtp, setSentOtp] = useState(null);
 
-    // const handleCountryChange = (e) => {
-    //     setSentOtp(e.target.value);
-    // };
+    const handleCountryChange = (e) => {
+        setSentOtp(e.target.value);
+    };
 
     return (
         <>

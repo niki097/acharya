@@ -1,13 +1,12 @@
-.login-div{
-    box-shadow: 0 4px 64px #00000026;
-    display: flex;
-    width: 904px;
-    padding: 10px 0 10px 10px;
-    background: #fff;
-    height: calc(100vh - 50px);
-    overflow: hidden;
-    border-radius: 12px 60px 0;
-    margin: 100px auto;
+.login-div {
+	box-shadow: 0 4px 64px #00000026;
+	display: flex;
+	width: 880px;
+	padding: 10px 15px 13px 13px;
+	background: #fff;
+	height: calc(100vh - 65px);
+	overflow: hidden;
+	border-radius: 12px 60px 0;
 }
 .login-left {
 	background: url("/src/assets/imgs/smallRectangle1.svg");

@@ -1,15 +1,12 @@
 import React from 'react'
 import './starating.css'
-import star from '../../assets/imgs/star.svg';
 
-function StarRating() {
+function StarRating({imageUrl, text,className}) {
     return (
-        <div>
-            <div className="astro_rating">
-                <img src={star} alt="" />
-                <p>4.5</p>
+            <div className={`${className}`}>
+                <img src={imageUrl} alt="" />
+                <p>{text}</p>
             </div>
-        </div>
     )
 }
 
