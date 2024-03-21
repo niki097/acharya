@@ -6,32 +6,31 @@
 .horoscope_card img{
     height: 100px;
 }
-.slick-slider {
+.astro_card {
 	display: flex !important;
 	align-items: center !important;
+	justify-content: center;
 }
-.slick-slider .astrologer_card {
-	width: auto !important;
+.astro_card .astrologer_card {
 	display: grid !important;
 	justify-content: center;
 	text-align: center;
 	box-shadow: 1px 1px 8px 0px #00000026;
 	border-radius: 10px;
-	height: 415px;
+	gap: 14px;
 }
 
 .star_img {
 	position: absolute;
-	width: 115px;
 	border-radius: 24px;
 	display: flex;
 	justify-content: space-around;
 	box-shadow: 1px 1px 8px 0px #00000026;
 	background: #fff;
-	bottom: 0;
+	bottom: -.5rem;
 	right: 18%;
 	align-content: center;
-	padding: .7rem;
+	padding: .4rem;
 }
 .star_img img{
     height: 34px;
@@ -43,11 +42,9 @@
 /* -----------------astrologercard----------------- */
 .astrologer_card button {
 	border-radius: 25px;
-	padding: em;
 	background-color: #E2343B;
 	color: #ffffff;
-	padding: .3rem;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: 600;
 }
 .astrologer_card h2{

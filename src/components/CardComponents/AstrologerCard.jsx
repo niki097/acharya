@@ -6,7 +6,7 @@ import './AstroCard.css'
 function AstrologerCard() {
     return (
         <>
-            <div className="slick-slider">
+            <div className="astro_card">
                 <div className="astrologer_card p-6 m-3">
                     <div className="astrologer_cardImg">
                         <img src={astrologer} alt="" />
@@ -17,7 +17,7 @@ function AstrologerCard() {
                     </div>
                     <h2>Astro Vivek K</h2>
                     <h6>₹ 30/min</h6>
-                    <button className=''>Connect</button>
+                    <button type='submit'>Connect</button>
                 </div>
             </div>
         </>

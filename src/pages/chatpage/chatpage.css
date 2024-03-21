@@ -1,0 +1,28 @@
+.chatwith_astro_top  {
+	background: #E64B51;
+	color: #fff;
+}
+.recharge_button{
+    background-color: #fff;
+    color: #E1341E;
+    border: none;
+}
+.chatwith_astro_top select{
+    background-color: #fff;
+    color: #E1341E;
+}
+.chatwithAstro_card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.astro_card_heading{
+	background: aliceblue;
+	height: 58px;
+	/* top: -56px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1rem;
+	border: 1px siolid aliceblue;
+	border: 1px solid chocolate;
+}
