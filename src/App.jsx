@@ -3,12 +3,11 @@ import Register from './components/Register/Register'
 import './assets/media.css'
 import Login from './components/Login/Login'
 import { Route, Router, Routes } from 'react-router-dom'
-import Landing from './pages/Landing'
 import ChatPage from './pages/chatpage/ChatPage'
-import TalkPage from './pages/TalkPage'
 import '.././src/assets/media.css'
-import Blog from './pages/Blog/Blog'
 import Otp from './components/Otp/Otp'
+import Landing from './pages/LandingPage/Landing'
+import TalkPage from './pages/talkpage/TalkPage'
 
 function App() {
 

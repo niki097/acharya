@@ -44,12 +44,12 @@ const ChatWithAstrologer = () => {
                         </button>
                     </div>
                     <div className="flex items-center">
-                        <select className="mr-2 p-2 bg-white border rounded-md">
+                        <select className="mr-4 p-2 bg-white border rounded-md">
                             <option value="">Sort</option>
                         </select>
                         <button
                             onClick={toggleFilterModal}
-                            className="recharge_button mr-2 px-3 py-1 text-sm rounded-md"
+                            className="recharge_button mr-4 px-3 py-2 text-sm rounded-md"
                         >
                             Filter
                         </button>

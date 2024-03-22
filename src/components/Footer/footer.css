@@ -1,0 +1,12 @@
+.footer{
+    background-color: #ffa07a17;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+.footer-title{
+    color: #D8301B;
+    font-weight: 700;
+    font-size: 20px;
+}
+.social-links img{
+    height: 30px;
+}

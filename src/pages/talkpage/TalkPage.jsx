@@ -1,11 +1,14 @@
 import React from 'react'
-import Layout from '../components/Layout/Layout'
+import Layout from '../../components/Layout/Layout'
+
 
 function TalkPage() {
   return (
     <Layout>
-          <div>TalkPage</div>
+         <div>TalkPage</div>
     </Layout>
+       
+   
   
   )
 }
