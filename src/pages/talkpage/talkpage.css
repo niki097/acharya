@@ -1,0 +1,8 @@
+.talk_with_astro_cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	justify-content: center;
+	padding: 2rem;
+	/* border-bottom: 1px dotted black; */
+}

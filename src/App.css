@@ -12,7 +12,10 @@ a {
 a:hover {
   color: #DE1F27E5;
 }
-
+img, video {
+	max-width: initial !important;
+	height: auto;
+}
 /* body {
   margin: 0;
   display: flex;
@@ -20,11 +23,6 @@ a:hover {
   min-width: 320px;
   min-height: 100vh;
 } */
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 
 button {
   border: 1px solid transparent;

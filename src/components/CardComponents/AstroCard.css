@@ -2,6 +2,7 @@
     width: 200px;
     box-shadow: 2px 4px 8px 0px #00000040;
     border-radius: 10px;
+	background-color: #fff;
 }
 .horoscope_card img{
     height: 100px;
@@ -53,7 +54,14 @@
 }
 /* --------------astrologer details-------------- */
 .astrologer_details_Card{
-	display:grid;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+	margin: 1rem;
+	border-radius: 8px;
+}
+.astrologer_details_Card:hover{
+	
+	transition: 1s ease-out;
+	cursor: pointer;
 
 }
 .astrologer_details_Card .astrologer_details_Card_inner{
@@ -66,7 +74,7 @@
 }
 .astro_connect_options {
 	display: flex;
-	gap: 5.4rem;
+	justify-content: space-around;
 	padding: 1rem;
 }
 .astrologer_img .vedic img{
@@ -75,7 +83,7 @@
 }
 .astrologer_details .name {
 	display: flex;
-	justify-content: space-between;
+	
 	padding: 1.4rem 0;
 	gap: 3rem;
 }
@@ -129,4 +137,11 @@
 .offline-text{
 	color: #E2343B;
 	font-weight: 600;
+}
+
+/* -------------------astro service card------------------- */
+.astro_services_bg{
+	background-color: #DAF2F1;
+	display: flex;
+	flex-direction: column;
 }

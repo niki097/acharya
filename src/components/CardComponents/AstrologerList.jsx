@@ -15,7 +15,7 @@ import './AstroCard.css'
 import StarRating from '../Rating/StarRating';4
 import '../../assets/media.css'
 
-function AstrologerList() {
+function AstrologerList({title, body}) {
     const[onlineState, setOnlineState]=useState(true);
     
 
@@ -31,7 +31,7 @@ function AstrologerList() {
                     </div>
                     <div className="astrologer_details">
                         <div className="name">
-                            <h5>Lorem ipsum dolor sit.</h5>
+                            <h5>{}</h5>
                             <img src={greenRight} alt="" />
                         </div>
                         <div className="readingicon">
