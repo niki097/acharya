@@ -1,9 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/imgs/JewelsbyVSB-white.png'
+import { useLanguage } from '../../LanguageContext/LanguageContext';
+import { LANGUAGES } from '../../constants/language';
 
 
 function Navbar() {
+    const { language, changeLanguage } = useLanguage();
+
+    const handleLanguageChange = (e) => {
+        changeLanguage(e.target.value);
+    };
     return (
         <>
             <div className="px-6 w-full navbar bg-base-100 shadow-md hover:shadow-lg focus:shadow-xl sticky top-0 z-10">
@@ -45,6 +52,13 @@ function Navbar() {
                     </ul>
                 </div>
                 <div className="navbar-end">
+                    <select defaultValue={"es"}>
+                        {LANGUAGES.map(({ code, label }) => (
+                            <option key={code} value={code}>
+                                {label}
+                            </option>
+                        ))}
+                    </select>
                     <Link to='/signup' className="">login/signup</Link>
                 </div>
             </div>

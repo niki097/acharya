@@ -1,7 +1,9 @@
 .slick-slider {
 	display: flex !important;
 	align-items: center !important;
-	margin: 0 1rem;
+	background-color:#DAF2F1;
+	margin: 2rem 0;
+	padding: 2rem 0;
 }
 .slick-slider .astrologer_card {
 	width: auto !important;
@@ -9,8 +11,15 @@
 	justify-content: center;
 	text-align: center;
 	box-shadow: 1px 1px 8px 0px #00000026;
+	background-color: #fff;
 	border-radius: 10px;
 	height: 415px;
+}
+.slick-arrow-prev{
+	padding-left: 2rem;
+}
+.slick-arrow-next{
+	padding-right: 2rem;
 }
 .astrologer_cardImg{
     position: relative;
@@ -18,6 +27,7 @@
 .astrologer_cardImg img{
     height:200px
 }
+
 .astrologer_card button {
 	border-radius: 25px;
 	padding: em;

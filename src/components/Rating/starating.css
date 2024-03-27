@@ -44,4 +44,7 @@
 	font-weight: 600;
 	font-size: 19px;
 }
+.s_rating-3 img{
+	height: 30px !important;
+}
 /* -----------StarRating.jsx end---------- */

@@ -1,0 +1,26 @@
+.hero_section {
+    background: linear-gradient(to left, #E2343B, #34E2DB);
+    height: 60vh;
+}
+.business_advice h1{
+    font-size:2.3rem ;
+    color: rgb(230, 75, 81);
+}
+.business_advice p{
+    color:#6b6b6b;
+    font-weight: 500;
+}
+.business_advice img{
+    height: 138px;
+}
+.business_advice_astrologerList{
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+}
+.business_advice_astrologerList img{
+    height: 350px;
+}
+.business_advice_astrologerList h4{
+ color: #027E78;;
+}

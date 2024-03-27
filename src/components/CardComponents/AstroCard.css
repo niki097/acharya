@@ -141,7 +141,7 @@
 
 /* -------------------astro service card------------------- */
 .astro_services_bg{
-	background-color: #DAF2F1;
+	background-color:#fcedee;
 	display: flex;
 	flex-direction: column;
 }
